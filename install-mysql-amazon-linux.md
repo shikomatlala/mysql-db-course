@@ -8,7 +8,7 @@ cat /etc/*release*
 ### DOWNLOAD & INSTALL MYSQL REPOSITORY
 ```sh
 sudo wget https://dev.mysql.com/get/mysql84-community-release-el9-1.noarch.rpm
-sudo dnf install mysql80-community-release-el9-1.noarch.rpm
+sudo dnf install mysql84-community-release-el9-1.noarch.rpm
 dnf repolist enabled | grep "mysql.*-community.*"
 ```
 
