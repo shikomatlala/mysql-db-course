@@ -39,6 +39,11 @@ pidof mysqld
 sudo lsof -u mysql
 ```
 
+### GET TEMPORARY PASSWORD
+```sh
+sudo grep 'temporary password' /var/log/mysqld.log
+```
+
 ### SECURE INSTALLATION
 ```sh
 sudo mysql_secure_installation
